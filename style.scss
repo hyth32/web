@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Golos Text', sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  background-color: #F4F5F8;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #161616;
+  font-weight: 500;
+
+  &-big {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  &-medium {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+
+  &_white {
+    color: #FFFFFF;
+  }
+}
+
+.header {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+
+  color: #757575;
+
+  font-size: 14px;
+  line-height: 1.14;
+
+  &__logo {
+    margin-right: auto;
+  }
+  &__info {
+    margin-left: 80px;
+  }
+  .header__contacts,
+  .header__info {
+    display: flex;
+    gap: 32px;
+  }
+}
+
+.buttons {
+  padding: 28px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+  &__pages,
+  &__function {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.button {
+  font-weight: 500;
+  outline-color: transparent;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 20px;
+
+  color: #161616;
+  font-size: 16px;
+  line-height: 1.25;
+
+  &-search,
+  &-cart,
+  &-arrow {
+    padding: 10px;
+    img {
+      vertical-align: bottom;
+    }
+  }
+
+  &-request {
+    background-color: #202226;
+    color: #FFFFFF;
+  }
+}
+
+.promo {
+  background-color: #202226;
+  border-radius: 16px;
+
+  margin-bottom: 120px;
+  .title {
+    width: 552px;
+  }
+
+  &__img {
+    width: 576px;
+    height: 420px;
+    border-radius: 12px;
+
+    background-color: #FFFFFF;
+  }
+
+  &__row {
+    width: 451px;
+
+    font-size: 16px;
+    line-height: 1.25;
+    color: #9F9F9F;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 12px;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #36383C;
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  &__content {
+    padding: 16px 16px 0 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__table {
+    margin: 32px 0 88px 0;
+  }
+  &__info {
+    padding-top: 24px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #36383C;
+  }
+
+  &__buttons {
+    padding: 40px 55px 40px 40px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__arrows {
+    display: flex;
+    gap: 8px;
+  }
+}

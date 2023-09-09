@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  background-color: #F4F5F8;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #161616;
+  font-weight: 500;
+}
+.title-big {
+  font-size: 40px;
+  line-height: 1.2;
+}
+.title-medium {
+  font-size: 24px;
+  line-height: 1.17;
+}
+.title_white {
+  color: #FFFFFF;
+}
+
+.header {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.header__logo {
+  margin-right: auto;
+}
+.header__info {
+  margin-left: 80px;
+}
+.header .header__contacts,
+.header .header__info {
+  display: flex;
+  gap: 32px;
+}
+
+.buttons {
+  padding: 28px 0 32px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons__pages, .buttons__function {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button {
+  font-weight: 500;
+  outline-color: transparent;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 20px;
+  color: #161616;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.button-search, .button-cart, .button-arrow {
+  padding: 10px;
+}
+.button-search img, .button-cart img, .button-arrow img {
+  vertical-align: bottom;
+}
+.button-request {
+  background-color: #202226;
+  color: #FFFFFF;
+}
+
+.promo {
+  background-color: #202226;
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+.promo .title {
+  width: 552px;
+}
+.promo__img {
+  width: 576px;
+  height: 420px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.promo__row {
+  width: 451px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #9F9F9F;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-bottom: 1px solid #36383C;
+}
+.promo__row:first-child {
+  padding-top: 0;
+}
+.promo__content {
+  padding: 16px 16px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.promo__table {
+  margin: 32px 0 88px 0;
+}
+.promo__info {
+  padding-top: 24px;
+  padding-bottom: 31px;
+  border-bottom: 1px solid #36383C;
+}
+.promo__buttons {
+  padding: 40px 55px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.promo__arrows {
+  display: flex;
+  gap: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
