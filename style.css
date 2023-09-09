@@ -111,6 +111,9 @@
   width: 576px;
   height: 420px;
   border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #FFFFFF;
 }
 .promo__row {
@@ -209,6 +212,38 @@
   grid-template-columns: 389px 389px 389px;
   grid-column-gap: 16px;
   grid-row-gap: 40px;
+}
+
+.why {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.why .wrapper {
+  border-radius: 16px;
+}
+.why .title {
+  margin-bottom: 102px;
+}
+.why .caption {
+  width: 512px;
+}
+.why__info {
+  padding: 40px;
+}
+.why__card {
+  height: 187px;
+  background-color: #F4F5F8;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why__grid {
+  display: grid;
+  grid-template-columns: 187px 187px 187px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
