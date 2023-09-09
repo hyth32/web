@@ -201,3 +201,39 @@
     grid-row-gap: 16px;
   }
 }
+
+.features {
+  margin-bottom: 120px;
+  .title-big {
+    width: 852px;
+    margin-bottom: 60px;
+  }
+  .title-small {
+    margin-bottom: 20px;
+  }
+  .title-small,
+  .caption-small {
+    width: 313px;
+  }
+  &__card {
+    display: flex;
+    gap: 16px;
+    &-icon {
+      width: 59px;
+      height: 59px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border: 1px solid #E9E9E9;
+      border-radius: 8px;
+    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 389px 389px 389px;
+    grid-column-gap: 16px;
+    grid-row-gap: 40px;
+  }
+}
